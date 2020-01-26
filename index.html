@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+
+<title>Hannas Punktemaschine</title>
+<meta name="robots" content="noindex" />
+<meta name="author" content="Jan Pohlmann" />
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<script type="text/javascript" src="jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="dots.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+  
+</head>
+
+<body>
+
+<form>
+	<fieldset>
+	  <legend>Punkte</legend>
+	  <ol>
+	    <li>
+	      <label>Radius</label>
+	      <input id="radius" type="text" value="20" />
+			</li>
+	    <li>
+	      <label>Abstand</label>
+	      <input id="spacing" type="text" value="40" />
+			</li>
+	  </ol>
+	</fieldset>
+	<fieldset>
+	  <legend>Farben</legend>
+	  <ol>
+	    <li>
+	      <label>Punkte</label>
+	      <select id="dots">
+	        <option value="fuchsia">Fuchsia</option>
+	        <option value="purple">Lila</option>
+	        <option value="pink" selected="selected">Rosa</option>
+	        <option value="hotpink">Pink</option>
+	        <option value="red">Rot</option>
+	        <option value="white">Wei&szlig;</option>
+	        <option value="yellowgreen">Yellow Green</option>
+	        <option value="green">Green</option>
+	        <option value="yellow">Gelb</option>
+	        
+				</select>
+			</li>
+	    <li>
+	      <label>Hintergrund</label>
+	      <select id="bg">
+	        <option value="fuchsia">Fuchsia</option>
+	        <option value="purple">Lila</option>
+	        <option value="pink">Rosa</option>
+	        <option value="hotpink">Pink</option>
+	        <option value="red" selected="selected">Rot</option>
+	        <option value="white">Wei&szlig;</option>
+	        <option value="yellowgreen">Yellow Green</option>
+	        <option value="green">Green</option>
+	        <option value="yellow">Gelb</option>
+				</select>
+			</li>
+	  </ol>
+	</fieldset>
+	<fieldset>
+	  <legend></legend>
+	  <ol>
+	    <li class="submit">
+	      <button type="button" onClick="generate();">&Auml;ndern</button>
+			</li>
+	  </ol>
+	</fieldset>
+</form>
+
+</body>
+
+</html>
